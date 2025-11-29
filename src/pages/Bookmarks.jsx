@@ -43,6 +43,27 @@ const Bookmarks = () => {
         }
     };
 
+    const handleReadMore = async (article) => {
+        window.open(article.url, "_blank");
+
+        if (userObj) {
+            const historyItem = article.title;
+            const currentHistory = userObj.history || [];
+
+            if (currentHistory[currentHistory.length - 1] !== historyItem) {
+                const updatedHistory = [...currentHistory, historyItem];
+                try {
+                    const newUserObj = { ...userObj, history: updatedHistory };
+                    setUserObj(newUserObj);
+                    localStorage.setItem('user', JSON.stringify(newUserObj));
+                    await axios.patch(`${USERS_API}/${userObj.id}`, { history: updatedHistory });
+                } catch (err) {
+                    console.error("Failed to save history", err);
+                }
+            }
+        }
+    };
+
     if (loading) return <div className="p-10 text-center text-gray-400">Loading bookmarks...</div>;
 
     return (
@@ -129,14 +150,12 @@ const Bookmarks = () => {
 
                                     <div className="flex items-center justify-between mt-auto">
                                         <span className="text-xs text-gray-500 font-mono">{item.source}</span>
-                                        <a
-                                            href={item.url}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
+                                        <button
+                                            onClick={() => handleReadMore(item)}
                                             className="relative px-4 py-2 bg-transparent text-aqua text-sm font-bold uppercase tracking-wider border border-aqua rounded overflow-hidden group/btn transition-all duration-300 hover:bg-aqua hover:text-black hover:shadow-[0_0_20px_rgba(0,255,255,0.6)]"
                                         >
                                             <span className="relative z-10">Read More</span>
-                                        </a>
+                                        </button>
                                     </div>
                                 </div>
                             </div>

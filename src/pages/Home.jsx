@@ -268,6 +268,28 @@ const Home = () => {
     }
   };
 
+  // handle read more (open link + save history)
+  const handleReadMore = async (article) => {
+    window.open(article.url, "_blank");
+
+    if (userObj) {
+      const historyItem = article.title;
+      const currentHistory = userObj.history || [];
+
+      if (currentHistory[currentHistory.length - 1] !== historyItem) {
+        const updatedHistory = [...currentHistory, historyItem];
+        try {
+          const newUserObj = { ...userObj, history: updatedHistory };
+          setUserObj(newUserObj);
+          localStorage.setItem('user', JSON.stringify(newUserObj));
+          await axios.patch(`${USERS_API}/${userObj.id}`, { history: updatedHistory });
+        } catch (err) {
+          console.error("Failed to save history", err);
+        }
+      }
+    }
+  };
+
   const logout = () => {
     localStorage.removeItem('user');
     navigate('/', { replace: true });
@@ -391,9 +413,9 @@ const Home = () => {
                       </button>
                     </div>
 
-                    <a href={a.url} target="_blank" rel="noopener noreferrer" className="text-sm font-bold text-aqua hover:underline flex items-center gap-1">
+                    <button onClick={() => handleReadMore(a)} className="text-sm font-bold text-aqua hover:underline flex items-center gap-1">
                       Read <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
-                    </a>
+                    </button>
                   </div>
                 </div>
               </article>
