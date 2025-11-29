@@ -1,0 +1,100 @@
+{
+  "users": [
+    {
+      "id": "4f46",
+      "name": "dhanush007",
+      "email": "dhanush@gmail.com",
+      "password": "Dhanush@007",
+      "history": [
+        "My favorite Android smartwatch easily rivals Garmin - and it's $100 off right now"
+      ],
+      "bookmarks": [
+        {
+          "id": "https://torontosun.com/sports/hockey/nhl/toronto-maple-leafs/third-period-letdown-dooms-maple-leafs-in-d-c-defeat",
+          "title": "Third-period letdown dooms Maple Leafs in D.C. defeat",
+          "description": "What could have been Toronto's second straight win for the first time in three weeks unraveled in the late stages after an impressive start.",
+          "url": "https://torontosun.com/sports/hockey/nhl/toronto-maple-leafs/third-period-letdown-dooms-maple-leafs-in-d-c-defeat",
+          "urlToImage": "https://smartcdn.gprod.postmedia.digital/torontosun/wp-content/uploads/2025/11/1129wollsmall-e1764379283493.jpg?h=216&quality=90&sig=KIY18p5JTuXtTGvrHViPBQ&strip=all&w=288",
+          "source": "torontosun"
+        },
+        {
+          "id": "https://martinsvillebulletin.com/sports/high-school/football/article_a9c027d9-bfe1-4a7d-b5a7-7a5f4b54cae2.html",
+          "title": "High School Football: Magna Vista defeats Lord Botetourt to win region title",
+          "description": "With a 65-34 win over Lord Botetourt on Friday, the Magna Vista football team won the Region 3D championship for the first time since 2015.",
+          "url": "https://martinsvillebulletin.com/sports/high-school/football/article_a9c027d9-bfe1-4a7d-b5a7-7a5f4b54cae2.html",
+          "urlToImage": "https://bloximages.newyork1.vip.townnews.com/martinsvillebulletin.com/content/tncms/assets/v3/editorial/5/ac/5ac07357-091e-4dbb-a286-b0a71111adb7/692a6f84dc233.image.jpg?resize=300%2C151",
+          "source": "martinsvillebulletin"
+        },
+        {
+          "id": "https://hickoryrecord.com/article_d4aa25cb-889a-451a-a77f-fcb240c3ad52.html",
+          "title": "Hickory, Maiden High School football scores: See who is moving on to the regional finals",
+          "description": "See if Hickory and Maiden won their fourth-round games to advance to next week's regional football finals.",
+          "url": "https://hickoryrecord.com/article_d4aa25cb-889a-451a-a77f-fcb240c3ad52.html",
+          "urlToImage": "https://bloximages.newyork1.vip.townnews.com/hickoryrecord.com/content/tncms/assets/v3/editorial/d/4a/d4aa25cb-889a-451a-a77f-fcb240c3ad52/692a737cadf44.preview.jpg?crop=1586%2C833%2C2%2C34&order=crop%2Cresize&resize=1200%2C630",
+          "source": "hickoryrecord"
+        },
+        {
+          "id": "https://www.yardbarker.com/nba/articles/tyrese_haliburton_trolls_wizards_during_their_game/s1_127_43134285",
+          "title": "Tyrese Haliburton trolls Wizards during their game",
+          "description": "Tyrese Haliburton is still playing the role of the villain, even while injured. The Indiana Pacers faced off on Friday against the Washington Wizards in an NBA Cup game at Gainbridge Fieldhouse in Indianapolis, Ind.",
+          "url": "https://www.yardbarker.com/nba/articles/tyrese_haliburton_trolls_wizards_during_their_game/s1_127_43134285",
+          "urlToImage": "https://www.yardbarker.com/media/5/1/5154c0958d415d6c60a86500d4f3395afb4c88ba/thumb_16x9/nov-28-2025-indianapolis-indiana-usa-indiana.jpg?v=1",
+          "source": "yardbarker"
+        }
+      ]
+    },
+    {
+      "id": "7aff",
+      "name": "s.lalitha",
+      "email": "svlalli345@gmail.com",
+      "password": "mukii",
+      "history": [
+        "sdhks",
+        "dsnfjkd",
+        "sdnksnkfn",
+        "adfndnks",
+        "jbnn"
+      ],
+      "bookmarks": []
+    },
+    {
+      "id": "62b8",
+      "name": "B.Balla",
+      "email": "chaitanya_b@srmap.edu.in",
+      "password": "balla",
+      "history": [],
+      "bookmarks": []
+    },
+    {
+      "id": "6da0",
+      "name": "Dhanush",
+      "email": "sarpoordhanush@gmail.com",
+      "password": "dhanush123",
+      "history": [
+        "czdnfn",
+        "sdfnkjdn",
+        "snfnsk",
+        "sdgfngnfln"
+      ],
+      "bookmarks": [
+        "El vértigo de escuchar a Foster Wallace"
+      ]
+    },
+    {
+      "id": "3e75",
+      "name": "Dhanush123",
+      "email": "dhanush1@gmail.com",
+      "password": "dfhkjh",
+      "history": [],
+      "bookmarks": []
+    },
+    {
+      "id": "f7e3",
+      "name": "dhanush016",
+      "email": "sarpoordhanush123@gmail.com",
+      "password": "sdasjk",
+      "history": [],
+      "bookmarks": []
+    }
+  ]
+}
