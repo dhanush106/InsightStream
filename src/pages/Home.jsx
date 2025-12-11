@@ -5,12 +5,9 @@ import { useNavigate } from 'react-router-dom';
 
 const USERS_API = 'http://localhost:3000/users';
 
-// NewsData.io config
-// Recommended: place your key in an .env file as REACT_APP_NEWSDATA_KEY and restart dev server.
-// If you keep it here, replace the string below.
 const NEWSDATA_BASE = 'https://newsdata.io/api/1/latest';
 const NEWSDATA_APIKEY = "pub_9cdacaf3abf94b7a9b590b4a7856d0d8";
-const NEWS_COUNTRY = 'us'; // change if desired
+const NEWS_COUNTRY = 'us'; 
 
 const categories = [
   { key: 'general', label: 'General' },
@@ -23,7 +20,6 @@ const categories = [
 const Home = () => {
   const navigate = useNavigate();
 
-  // read logged user from localStorage
   const saved = (() => {
     try {
       return JSON.parse(localStorage.getItem('user'));
@@ -33,25 +29,20 @@ const Home = () => {
   })();
   const loggedEmail = saved?.email || null;
 
-  // user state
   const [userObj, setUserObj] = useState(null);
   const [userLoading, setUserLoading] = useState(Boolean(!userObj));
   const [userError, setUserError] = useState('');
 
-  // history/bookmark state
   const [newHistoryItem, setNewHistoryItem] = useState('');
   const [updating, setUpdating] = useState(false);
 
-  // news state
   const [selectedCategory, setSelectedCategory] = useState('general');
   const [articles, setArticles] = useState([]);
   const [newsLoading, setNewsLoading] = useState(false);
   const [newsError, setNewsError] = useState('');
 
-  // view state
   const [viewMode, setViewMode] = useState('grid'); // 'grid' or 'list'
 
-  // fetch user object
   useEffect(() => {
     if (!loggedEmail) {
       navigate('/', { replace: true });

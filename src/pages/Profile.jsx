@@ -18,16 +18,13 @@ const Profile = () => {
             return;
         }
 
-        if (passwords.new.length < 6) {
+    if (passwords.new.length < 6) {
             setStatus({ loading: false, error: "Password must be at least 6 characters", success: '' });
             return;
         }
 
         try {
             const resp = await axios.patch(`${USERS_API}/${user.id}`, { password: passwords.new });
-            // Update local storage if needed, though usually we don't store plain password there if we can avoid it, 
-            // but for this mock app we might need to keep consistency if the object has it.
-            // The current user object in localStorage might not have the password field, but let's update the user state.
             const updatedUser = { ...user, ...resp.data };
             localStorage.setItem('user', JSON.stringify(updatedUser));
             setUser(updatedUser);

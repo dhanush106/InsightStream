@@ -22,7 +22,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className="flex gap-6 fixed p-6 z-50">
+    <div className="flex gap-6 h-dvh p-6 z-50">
       <aside
         aria-label="Sidebar"
         className={`flex flex-col rounded-2xl bg-gradient-to-b from-gray-900/90 to-gray-900/70 text-white transition-all duration-300 ${collapsed ? 'w-20' : 'w-64'

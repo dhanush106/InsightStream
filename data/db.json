@@ -71,15 +71,41 @@
       "id": "6da0",
       "name": "Dhanush",
       "email": "sarpoordhanush@gmail.com",
-      "password": "dhanush123",
-      "history": [
-        "czdnfn",
-        "sdfnkjdn",
-        "snfnsk",
-        "sdgfngnfln"
-      ],
+      "password": "123456",
+      "history": [],
       "bookmarks": [
-        "El vértigo de escuchar a Foster Wallace"
+        {
+          "id": "https://www.bgr.com/2034694/amazon-users-love-affordable-note-taking-solution-plaud/",
+          "title": "Say Goodbye To Note Taking: Amazon Users Love This Affordable Solution",
+          "description": "Tired of scribbling notes like it's 1999? This AI gadget is winning over Amazon users by doing the remembering for you - so you can give your pen a rest.",
+          "url": "https://www.bgr.com/2034694/amazon-users-love-affordable-note-taking-solution-plaud/",
+          "urlToImage": "https://www.bgr.com/img/gallery/say-goodbye-to-note-taking-amazon-users-love-this-affordable-solution/l-intro-1763574487.jpg",
+          "source": "bgr_com"
+        },
+        {
+          "id": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ2ZBaWRqbDJUbWx2QU9KYnZHdGRlcVdTQUZzRWkycDVTWTRsTmQzT3pQd2RVQkpSanN4SnV3bllmamFfaldIM0FPQ2gwLXBuY3Q1SzNGZzRfOG1aaHdIU2gwaExXRl94QXJwSVlhWFJlak1vUmNPZ3FCWXBWcWF2U1UtSHpTenU0S2RiU2lnQndjV2s2b1g4Q1EtMGNrQmdPZzQw?oc=5",
+          "title": "Rams-Panthers takeaways: Matthew Stafford’s fumble helps Carolina upset L.A. - The New York Times",
+          "description": "Rams-Panthers takeaways: Matthew Stafford’s fumble helps Carolina upset L.A. The New York Times'Humbling experience': Rams lose NFC's top spot ESPNNFL Winners and Losers: After Rams loss, it's hard to find any reliable Super Bowl contenders Yahoo SportsMike Jackson: When Matthew Stafford makes HOF speech, I’ll be thinking about the pick six NBC SportsMatthew Stafford admits his mistakes, but Rams aren’t panicking after loss to Panthers Los Angeles Times",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ2ZBaWRqbDJUbWx2QU9KYnZHdGRlcVdTQUZzRWkycDVTWTRsTmQzT3pQd2RVQkpSanN4SnV3bllmamFfaldIM0FPQ2gwLXBuY3Q1SzNGZzRfOG1aaHdIU2gwaExXRl94QXJwSVlhWFJlak1vUmNPZ3FCWXBWcWF2U1UtSHpTenU0S2RiU2lnQndjV2s2b1g4Q1EtMGNrQmdPZzQw?oc=5",
+          "urlToImage": "",
+          "source": "google"
+        },
+        {
+          "id": "https://www.rockdalenewtoncitizen.com/fieldlevel/nick-folks-56-yard-fg-lifts-jets-over-falcons/article_f4662572-1eb6-560d-aae6-4fa5cbc7dcff.html",
+          "title": "Nick Folk's 56-yard FG lifts Jets over Falcons",
+          "description": "Nick Folk kicked a game-winning, 56-yard field goal as time expired on Sunday, giving the New York Jets a 27-24 win over the Atlanta Falcons in East Rutherford, N.J.",
+          "url": "https://www.rockdalenewtoncitizen.com/fieldlevel/nick-folks-56-yard-fg-lifts-jets-over-falcons/article_f4662572-1eb6-560d-aae6-4fa5cbc7dcff.html",
+          "urlToImage": "https://bloximages.newyork1.vip.townnews.com/rockdalenewtoncitizen.com/content/tncms/custom/image/5f6f5548-d8d7-11e6-8c18-73895d51768b.jpg?resize=600%2C315",
+          "source": "rockdalenewtoncitizen"
+        },
+        {
+          "id": "https://biztoc.com/x/325e8357f6639edf",
+          "title": "Growth drivers behind leveraged and options-based ETFs",
+          "description": "Mike Khouw, YieldMax strategist, Openinterest.Pro co-founder and CNBC contributor, joins CNBC's Dominic Chu on the 'Halftime ...",
+          "url": "https://biztoc.com/x/325e8357f6639edf",
+          "urlToImage": "https://cdn.biztoc.com/325e8357f6639edf_s.webp",
+          "source": "biztoc"
+        }
       ]
     },
     {
@@ -97,6 +123,111 @@
       "password": "sdasjk",
       "history": [],
       "bookmarks": []
+    },
+    {
+      "id": "322f",
+      "name": "dhanush",
+      "email": "dhanush2@gmail.com",
+      "password": "123456",
+      "history": [
+        "Social media ban: eSafety Commissioner says she will ‘play the long game’ as teens circumvent restriction",
+        "Entering the mindset of Göbeklitepe",
+        "LG Electronics: Kotak says ‘Reduce’; this is the first bearish rating on the stock",
+        "150 teams to contest oldest netball championship"
+      ],
+      "bookmarks": [
+        {
+          "id": "a1a8d56475af872e2c624e84a56f000c",
+          "title": "Social media ban: eSafety Commissioner says she will ‘play the long game’ as teens circumvent restriction",
+          "description": "While millions of underage accounts across ten platforms were slated to be deactivated on Wednesday, younger users have flooded Anthony Albanese’s profiles to criticise the policy and saying it ‘didn’t work’.",
+          "url": "https://thewest.com.au/technology/social-media/social-media-ban-esafety-commissioner-says-she-will-play-the-long-game-as-teens-circumvent-restriction-c-20952648",
+          "urlToImage": "https://images.thewest.com.au/publication/C-20952648/16e610d225e8277a73d261fb10dd145b95653f0c-16x9-x0y100w3213h1807.jpg",
+          "source": "thewest"
+        },
+        {
+          "id": "6e06e87045c8ee349d82417b793b3d6f",
+          "title": "Entering the mindset of Göbeklitepe",
+          "description": "At the outset of this piece, I wish to say that despite what its title might suggest, this is definitely not a piece of mysticism inspired by what has been unearthed at the ancient...",
+          "url": "https://www.dailysabah.com/arts/entering-the-mindset-of-gobeklitepe/news",
+          "urlToImage": "https://idsb.tmgrup.com.tr/ly/uploads/images/2025/12/10/415869.jpg",
+          "source": "dailysabah"
+        },
+        {
+          "id": "b4f67dead5c5a5aafd97aa64b81b78df",
+          "title": "LG Electronics: Kotak says ‘Reduce’; this is the first bearish rating on the stock",
+          "description": "LG Electronics India had set the markets on fire with its stupendous IPO success when the issue was subscribed more than 54 times and QIBs bid 166.51 times the amount earmarked for them. This call by Kotak is the first bearish call since the listing of the shares.",
+          "url": "https://www.news9live.com/business/markets/lg-electronics-kotak-says-reduce-this-is-the-first-bearish-rating-on-the-stock-2910783",
+          "urlToImage": "https://images.news9live.com/wp-content/uploads/2025/12/LG-Getty.png?enlarge=true&w=802",
+          "source": "news9live"
+        },
+        {
+          "id": "e763ae81ceb6076ac302cc11be37d7d8",
+          "title": "150 teams to contest oldest netball championship",
+          "description": "]]>",
+          "url": "https://www.dailymirror.lk/sports/150-teams-to-contest-oldest-netball-championship/244-327444",
+          "urlToImage": "https://bmkltsly13vb.compat.objectstorage.ap-singapore-1.oraclecloud.com/cdn.sg.dailymirror.lk/assets/uploads/image_ddebeb4ac7.jpg",
+          "source": "dailymirror"
+        },
+        {
+          "id": "00065d2bf820ded063e7809de589cfd5",
+          "title": "RR IPL 2026 Auction needs: Spin rebuild, fast-bowling insurance and strategy",
+          "description": "RR IPL 2026 squad gaps revealed with missing spin resources, over-reliance on Jadeja and lack of middle-overs control.",
+          "url": "https://sportstar.thehindu.com/cricket/ipl/ipl-news/ipl-2026-auction-rr-team-needs-purse-left/article70379548.ece",
+          "urlToImage": "https://ss-i.thgim.com/public/incoming/atlb8d/article70379551.ece/alternates/LANDSCAPE_1200/PTI12_06_2025_000215A.jpg",
+          "source": "sportstar"
+        },
+        {
+          "id": "4992cb8338566ec6c73be90847d24053",
+          "title": "Nagarjuna hails Mohanlal as 'most deserving actor' while congratulating him on Dadasaheb Phalke Award at JioHotstar event in Chennai",
+          "description": "Telugu superstar Nagarjuna’s tribute to Mohanlal became the highlight of a JioHotstar event in Chennai on Tuesday, where he publicly congratulated the Malayalam legend on receiving the Dadasaheb Phalke Award.",
+          "url": "https://www.moneycontrol.com/entertainment/nagarjuna-hails-mohanlal-as-most-deserving-actor-while-congratulating-him-on-dadasaheb-phalke-award-at-jiohotstar-event-in-chennai-article-13719327.html",
+          "urlToImage": "https://images.moneycontrol.com/static-mcnews/2025/12/20251210074141_mohh.jpg",
+          "source": "moneycontrol"
+        }
+      ]
+    },
+    {
+      "id": "0fc6",
+      "name": "Dhanush",
+      "email": "dhanush4@gmail.com",
+      "password": "12345",
+      "history": [
+        "Grain Management to Sell Hunter Communications, Following Accelerated Growth and Operational Advancements"
+      ],
+      "bookmarks": [
+        {
+          "id": "https://www.benzinga.com/pressreleases/25/12/g49311917/strong-quiet-predictable-watchguard-delivers-total-protection-without-operational-burden-in-mitre-",
+          "title": "Strong, Quiet, Predictable. WatchGuard Delivers Total Protection Without Operational Burden in MITRE ER7 Evaluation.",
+          "description": "SEATTLE, Dec. 10, 2025 (GLOBE NEWSWIRE) -- WatchGuard® Technologies, a global leader in unified cybersecurity, today announced that its endpoint security solution delivered outstanding performance in the latest MITRE ATT&CK® Enterprise Round 7 (ER7) Evaluation. The results highlight WatchGuard's ability to combine strong threat prevention with low-noise detection, giving Managed Service Providers (MSPs) a reliable and efficient way to deliver high-quality security services at scale.In the Windows \"Hermes\" scenario, WatchGuard achieved comprehensive detection and flawless prevention across the evaluated adversary techniques while maintaining exceptionally low alert volume, no blocked legitimate processes, and minimal operational friction. These independently validated results reinforce WatchGuard's commitment to predictable security outcomes that strengthen partner service delivery and drive real-world value.\"Security teams and MSPs need protection that works without slowing down their business,\" said Andrew Young, chief product officer and senior vice president product management at WatchGuard Technologies. \"These results prove that full protection doesn't require more workload. With WatchGuard, you get fewer alerts, fewer manual interventions, and faster response times, which is exactly what our partners count on to deliver reliable and scalable security ...Full story available on Benzinga.com",
+          "url": "https://www.benzinga.com/pressreleases/25/12/g49311917/strong-quiet-predictable-watchguard-delivers-total-protection-without-operational-burden-in-mitre-",
+          "urlToImage": "",
+          "source": "benzinga"
+        },
+        {
+          "id": "5e31ed39ea44647e8e9b19822f0a209c",
+          "title": "When will Percy Jackson season 2 episode 3 come out?",
+          "description": "Percy Jackson and the Olympians is finally back with its future already confirmed by Disney+.",
+          "url": "https://www.mirror.co.uk/tv/tv-news/percy-jackson-episode-3-release-36382413",
+          "urlToImage": "https://i2-prod.mirror.co.uk/incoming/article36382473.ece/ALTERNATES/s615/0_percy-season-2-3-1.jpg",
+          "source": "mirroruk"
+        },
+        {
+          "id": "4bc1ee1e6f008da83b08aa8a28659403",
+          "title": "Nursing professor completes prestigious, year-long health and aging policy fellowship",
+          "description": "Tracy Fasolino, nursing professor and distinguished palliative care leader, has completed a year-long, residential Health and Aging Policy...The post Nursing professor completes prestigious, year-long health and aging policy fellowship appeared first on Clemson News.",
+          "url": "https://news.clemson.edu/nursing-professor-completes-prestigious-year-long-health-and-aging-policy-fellowship/",
+          "urlToImage": "https://news.clemson.edu/wp-content/uploads/2025/12/AdobeStock_11185519-scaled.jpeg",
+          "source": "news_clemson"
+        },
+        {
+          "id": "c822916dd2b75ef8febf5ef2028ecd6b",
+          "title": "One-on-one with Rahul, ‘vote chori’ charge on Gandhis: 5 standouts from Amit Shah’s blistering Lok Sabha speech",
+          "description": "Amit Shah used the Lok Sabha floor to mount his sharpest attack yet on the Congress’ leadership and electoral claims.",
+          "url": "https://www.hindustantimes.com/india-news/one-on-one-rahul-gandhi-vote-chori-charge-gandhis-5-standouts-from-amit-shah-blistering-lok-sabha-speech-101765383568439.html",
+          "urlToImage": "https://www.hindustantimes.com/ht-img/img/2025/12/10/1600x900/logo/amit_shah_lok_sabha_1765385389109_1765385429854.png",
+          "source": "hindustantimes"
+        }
+      ]
     }
   ]
 }
